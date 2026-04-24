@@ -33,3 +33,4 @@ To fix it and make it actually work **make sure ur api is right**
 
 Made with **love** by **Chaw_Chaw**    
 Discord: **@chaw_chawyt** (Contact for: **Bugs**, **issues**, or **questions**)  
+Readme made by **@bkgrnd** 
