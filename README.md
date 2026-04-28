@@ -5,7 +5,7 @@
 For example, if you are playing music with a green cover art, that color will be set as the audio color, HOWEVER if Spotiled cant reach the api the color will remain solid white.
 
 ## SETUP:
- 1. **Install OpenRGB**
+ 1. **Install OpenRGB** (Link: https://openrgb.org/)
  2. make **OpenRGB SDK server "Online"** by pressing the start server each time closing and opening openrgb the server should be as(server HOST: 0.0.0.0  server Port: 6742) or **making it auto start on windows**
  3. turn on auto start server and Openrgb > open OpenRGB and click on **settings tab** scroll all the way down until u see (**Start at Login**) Check it (**Set it to YES**) and Check Start server Thats it for OpenRGB
  4. **Open spotify Developers** https://developer.spotify.com/
@@ -18,7 +18,7 @@ For example, if you are playing music with a green cover art, that color will be
  11. write ur **app name** (Ex. Spotted bee)
  12. Write any **description** (Ex. app takes my music to a led)
  13. **Redirect URL** (Ex. http://127.0.0.1:8000/callback) (Documentation. https://developer.spotify.com/documentation/web-api/concepts/redirect_uri)
- 14. check **Web Apis** (if its blacked out for u just select anything then save and edit it again it will be **showen**)  
+ 14. check **Web Apis** (if its blacked out for u just select anything then save and edit it again it will be **the show**)  
  15. get ur **Client id** and **client secret** put them in  the **.env file** (if secret dosent show click on **Show Client secret**)  
  16. **Enjoy ur spotiled**
 
