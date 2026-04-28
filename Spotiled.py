@@ -413,13 +413,25 @@ class SpotiledEngine:
         self.status = "Starting…"
         audio = None
         rgb   = None
+
         try:
             sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
                 client_id=SPOTIFY_CLIENT_ID,
-                client_secret=SPOTIFY_CLIENT_SECRET,
                 redirect_uri=SPOTIFY_REDIRECT_URI,
                 scope="user-read-playback-state",
+                open_browser=True,
+                cache_path=".cache",
+                show_dialog=True,
+                requests_timeout=10,
             ))
+
+            rgb = OpenRGBClient("127.0.0.1", 6742)
+            dev = rgb.devices[self.s["device_index"]]
+
+            audio = AudioEngine(self.s)
+            audio.start()
+    
+
             rgb = OpenRGBClient("127.0.0.1", 6742)
             dev = rgb.devices[self.s["device_index"]]
 
