@@ -1,0 +1,9 @@
+customtkinter
+pystray
+pyaudiowpatch
+openrgb-python
+spotipy
+python-dotenv
+numpy
+requests
+pillow
