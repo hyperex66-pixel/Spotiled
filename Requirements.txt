@@ -1,9 +1,2 @@
-customtkinter
-pystray
-pyaudiowpatch
-openrgb-python
-spotipy
-python-dotenv
-numpy
-requests
-pillow
+Dependencies:
+pip install customtkinter pystray pyaudiowpatch openrgb-python spotipy python-dotenv numpy requests pillow
